@@ -1,3 +1,9 @@
+/**
+* The class below "rgb_to_hex" contains two functions,
+* A main function that has a sstandard call and a function rbgToHex that takes in three numbers and returns a string
+* The rgbToHex converts the rgb value to its hex value.
+*/
+
 public class rgb_to_hex {
     public static void main(String[] args) {
         int r = 255;
