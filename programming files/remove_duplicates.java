@@ -7,8 +7,8 @@ public class remove_duplicates {
     public static List<Integer> removeDuplicates(List<Integer> arr, List<Integer> removedElements) {
         List<Integer> uniqueArr = new ArrayList<>();
         for (int i = 0; i < arr.size(); i++) {
-            // Removed ! before if statement
-            if (uniqueArr.contains(arr.get(i))) {
+            // Removed ! before if statement - Added an ! back into the if statement
+            if (!uniqueArr.contains(arr.get(i))) {
                 uniqueArr.add(arr.get(i));
             } else {
                 removedElements.add(arr.get(i));
