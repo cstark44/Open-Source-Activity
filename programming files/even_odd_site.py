@@ -1,7 +1,7 @@
 # Open File
 with open("numbers.html", "w") as f:
     # Write html code
-    f.write("<html>\n<head>\n<title>List of Numbers</title>\n</head>\n<body>\n")
+    f.write("<html>\n<head>\n<title>List of Numbers</title>\n</head>\n<body>\n)
     f.write("<table>\n<tr><th>Even Numbers</th><th>Odd Numbers</th></tr>\n")
     # Make a table
     for i in range(1, 50):
