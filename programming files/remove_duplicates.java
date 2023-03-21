@@ -14,7 +14,8 @@ public class remove_duplicates {
                 removedElements.add(arr.get(i));
             }
         }
-        return uniqueArr;
+        //add ; extra
+        return uniqueArr;;
     }
 
     public static void main(String[] args) {
