@@ -7,11 +7,13 @@ public class sum_even_fibonacci {
                 sumEven += b;
             }
             int temp = b;
+            // comment 2
             b = a + b;
             a = temp;
         }
         System.out.println(sumEven);
     }
+    // comment 3
 }
 
 // answer should be 4613732
