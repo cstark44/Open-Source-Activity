@@ -18,7 +18,8 @@ vector<int> remove_duplicates(vector<int> arr, vector<int>& removed_elements){
             removed_elements.push_back(arr[i]);
         }
     }
-    return unique_arr;
+    // bugs introduced: changed unique_arr to unique_ar AK"
+    return unique_ar;
 }
 
 int main(){
